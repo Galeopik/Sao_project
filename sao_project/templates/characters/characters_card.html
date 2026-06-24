@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    Персонажи
+{% endblock %}
+
+{% block content %}
+    <section class="characters-page">
+        <div class="section-header">
+            <h2>Персонажи Aincrad</h2>
+        </div>
+        <div class="characters-grid">
+            <article class="character-card">
+                <div class="card-image">
+                    <img src="{% static 'img/characters/kirito.png' %}" alt="Кирито">
+                </div>
+                <div class="card-content">
+                    <h3>Кирито</h3>
+                    <p>
+                        Чёрный мечник и один из сильнейших игроков Sword Art Online.
+                    </p>
+                    <a href="#" class="card-button">
+                        Подробнее
+                    </a>
+                </div>
+            </article>
+            <article class="character-card">
+                <div class="card-image">
+                    <img src="{% static 'img/characters/asuna.png' %}" alt="Асуна">
+                </div>
+                <div class="card-content">
+                    <h3>Асуна</h3>
+                    <p>
+                        Молния Айнкрада и одна из лидеров Knights of the Blood.
+                    </p>
+                    <a href="#" class="card-button">
+                        Подробнее
+                    </a>
+                </div>
+            </article>
+            <article class="character-card">
+                <div class="card-image">
+                    <img src="{% static 'img/characters/klein.png' %}" alt="Кляйн">
+                </div>
+                <div class="card-content">
+                    <h3>Кляйн</h3>
+                    <p>
+                        Верный союзник Кирито и лидер гильдии Фуринказан.
+                    </p>
+                    <a href="#" class="card-button">
+                        Подробнее
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+{% endblock %}

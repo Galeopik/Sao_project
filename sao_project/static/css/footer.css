@@ -1,0 +1,24 @@
+﻿.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding: 15px 30px;
+
+    background-color: #111;
+
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+.brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title p {
+    color: white;
+    text-decoration: none;
+}

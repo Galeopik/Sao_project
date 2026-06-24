@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    Оружие
+{% endblock %}
+
+{% block content %}
+    <section class="characters-page">
+        <div class="section-header">
+            <h2>Оружие Aincrad</h2>
+        </div>
+        <div class="characters-grid">
+            <article class="character-card">
+                <div class="card-image">
+                    <img src="{% static 'img/weapons/sword.png' %}" alt="Elucidor">
+                </div>
+                <div class="card-content">
+                    <h3>Elucidor</h3>
+                    <p>
+                        Легендарный черный меч Кирито.
+                        Был получен после убийства босса на 75 этаже
+                    </p>
+                    <a href="#" class="card-button">
+                        Подробнее
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+{% endblock %}

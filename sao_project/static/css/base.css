@@ -1,0 +1,27 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    min-height: 100svh;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #0b0f1a;
+    color: white;
+
+    font-family: Arial, sans-serif;
+}
+
+.main-content {
+    flex: 1 0 auto;
+}
